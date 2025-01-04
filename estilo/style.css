@@ -61,7 +61,7 @@ header > p {
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
     transition-duration: 0.5s;
 }
 
@@ -74,7 +74,6 @@ nav {
     background-color: var(--cor4);
     padding: 10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.281);
-    text-align: center;
 }
 
 nav > a {
@@ -87,9 +86,9 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     color: white;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 main {
